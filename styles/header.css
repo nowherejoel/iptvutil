@@ -1,0 +1,8 @@
+.main-nav{
+    float: left;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-box;
+}

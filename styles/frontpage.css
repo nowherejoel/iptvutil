@@ -1,3 +1,10 @@
 .frontpage{
     text-align: center;
+    background-color: black;
+}
+
+.portada{
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
 }
