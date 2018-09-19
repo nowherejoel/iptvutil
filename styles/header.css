@@ -1,8 +1,13 @@
 .main-nav{
     float: left;
-    list-style: none;
+    list-style-type: none;
 }
 
 .main-nav li{
-    display: inline-box;
+    display: inline-block;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    padding: 5px;
 }
