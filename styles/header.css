@@ -3,22 +3,45 @@
     width: 100%;
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     border: 1px solid #000;
+
    }
 
 .menu{
     padding: 0px;
     margin: 0px;
-    height: 100%;
+    border: 1px solid #000;
+    height: 50px;
+
 }
 
-.main-nav{
-    float: left;
-    list-style-type: none;
+.logo{
+    padding: 0px;
+    margin: 0px;  
+}
+
+.whats{
+
+    padding: 0px;
     margin: 0px;
-    padding: 5px;
-    border: 1px solid #000;
-    height: initial;
+   
+}
+
+.nav{
+    margin: 0px;
+    border: 1px solid #000; 
+    height: 40px; 
+    
+
+
+}
+.main-nav{
+    float: right;
+    list-style-type: none;
+    padding: 0px;    
+    vertical-align: middle;
+
 }
 
 .main-nav li{

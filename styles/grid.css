@@ -25,7 +25,7 @@
 
 .caja{
     float: left;
-    border: 1px solid;
+    /* border: 1px solid; */
     box-sizing: border-box;
     padding:15px;
 }
