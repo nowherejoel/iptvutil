@@ -3,7 +3,7 @@
     margin: auto;
     width: 100%;
     height: auto;
- 
+  
 }
 
 .fila{
@@ -13,13 +13,17 @@
     height: auto;
     clear: both;
     display: table;
+ 
 }
 
 .caja{
+    position: relative;
     float: left;
     /* border: 1px solid; */
     box-sizing: border-box;
     padding:15px;
+   
+   
 }
 
 @media(min-width: 1200px){
