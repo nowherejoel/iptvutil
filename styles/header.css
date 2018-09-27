@@ -41,22 +41,24 @@
       float: right;
       display: block;
       padding: 10px;
+      width: 100%;
+
     }
+   
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 768px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+      position: relative;
+      width: 100%;
+      text-align: center;
     }
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: left;
-     
+      text-align: center;
     }
   }
 
@@ -67,15 +69,13 @@
     height: 75px;
     text-align: center;
     
+    
 }
 
 .logo div {
     position: relative;
   /*  top: 15px;     */
   width: 100%;
-  
-  
-   left: 30px;
 }
 
 .logo div img{
@@ -84,8 +84,6 @@
     width: auto;
     max-height: 75px;
 }
-
-
 
 .whats{
 
