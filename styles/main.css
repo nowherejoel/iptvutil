@@ -80,9 +80,6 @@ td {
 	-moz-box-sizing: border-box; /* Still needed for Firefox 28; see http://caniuse.com/#search=box-sizing */
 	box-sizing: border-box;
 }
-body {
-	background: #fff;
-}
 article,
 aside,
 details,
@@ -138,7 +135,6 @@ a img {
 }
 body {
 	overflow-x: hidden;
-	color: #808080;
 	font-family: "Lato", Helvetica, sans-serif !important;
 	font-size: 14px;
 	font-weight: normal;
@@ -182,15 +178,6 @@ i {
 ul,
 ol {
 	padding-left: 0 !important;
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
-    font-family: sans-serif;
-    background-color:#fff;
 }
 
 /* Selection colours (easy to forget) */
