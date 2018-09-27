@@ -1,17 +1,9 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
-    font-family: sans-serif;
-}
-
 .contenedor{
     position: relative;
     margin: auto;
     width: 100%;
     height: auto;
- 
+  
 }
 
 .fila{
@@ -21,13 +13,17 @@
     height: auto;
     clear: both;
     display: table;
+ 
 }
 
 .caja{
+    position: relative;
     float: left;
     /* border: 1px solid; */
     box-sizing: border-box;
     padding:15px;
+   
+   
 }
 
 @media(min-width: 1200px){
